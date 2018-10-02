@@ -1,3 +1,8 @@
+/*Ex do input: <input type="tel" name="telefone" onblur="limpa_mascara(this)" onfocus="mascara(this)" OnKeyPress="formatar(this)" 
+placeholder="Ex: (21)9999-9999">
+*/
+
+
 function limpa_mascara(documento){
 	if(documento.value.length>0 && documento.value.length<13){
 	documento.value = '';	
