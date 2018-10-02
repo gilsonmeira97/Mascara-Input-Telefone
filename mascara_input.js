@@ -1,11 +1,3 @@
-/*
-	Mascara para campo de telefone ou celular.
-	formato da mascara em telefones: (XX) XXXX-XXXX
-	formato da mascara em celulares: (XX) XXXX-XXXXX
-
-	Ex do input: <input type="tel" name="telefone" onblur="limpa_mascara(this)" onfocus="mascara(this)" OnKeyPress="formatar(this)" placeholder="Ex: (21)9999-9999">
-*/
-
 function limpa_mascara(documento){
 	if(documento.value.length>0 && documento.value.length<13){
 	documento.value = '';	
