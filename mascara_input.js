@@ -18,8 +18,8 @@ function mascara(documento){
 }
 
 function formatar(documento){
-	var mascara = '###)####-####';
-	var i = documento.value.length; 
+	var mascara = '##)####-####';
+	var i = documento.value.length - 1; 
 	var saida = '#';
 	var texto = mascara.substring(i);		  		 
 
